@@ -40,3 +40,12 @@ export function Cardpeople(props) {
 		</div>
 	);
 }
+
+Cardpeople.propTypes = {
+	name: PropTypes.string,
+	gender: PropTypes.string,
+	hair_color: PropTypes.string,
+	eye_color: PropTypes.string,
+	img: PropTypes.string,
+	id: PropTypes.number
+};
